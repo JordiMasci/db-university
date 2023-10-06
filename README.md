@@ -16,7 +16,7 @@ SELECT * FROM `courses` WHERE period = 'I semestre' AND year = 1;
 SELECT * FROM `exams` WHERE HOUR > '14:00:00' AND date = '2020/06/20';
 
 6. Selezionare tutti i corsi di laurea magistrale
-
+SELECT * FROM `degrees` WHERE name LIKE '%Magistrale%';
 
 7. Da quanti dipartimenti è composta l'università?
 

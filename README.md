@@ -23,4 +23,6 @@ SELECT COUNT(id) AS number_departments FROM `departments`;
 
 
 8. Quanti sono gli insegnanti che non hanno un numero di telefono?
-SELECT * FROM `teachers` WHERE phone IS NULL;
+SELECT COUNT(name) AS theachers_without_phone FROM `teachers` WHERE phone IS NULL;
+
+<!-- si puo decidere la chiave da contare su COUNT(*) -->
